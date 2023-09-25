@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,200;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-container{
+    display: flex;
+    justify-content: center;
+}
+body{
+    font-family: "Poppins";
+}
+.bg{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 85px;
+    margin-top: 1rem;
+    filter: brightness(180%);
+}
+.links a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.links a:hover{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: all 1s ease-in-out;
+    color: #20c1de;
+}
+.btnDiv button{
+    padding: .7rem 2rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    background-color:  rgb(29, 188, 218);
+}
+.btnDiv button:hover{
+    padding: .7rem 2rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: all 1s ease-in-out;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    background-color:  rgb(81, 201, 225);
+}
+
+.txt{
+    width: 530px;
+}
+.text-info-div{
+    margin-top: 9rem;
+    margin-left: 8rem;
+}
+.text-info-div h1{
+    font-size: 70px;
+    color:  rgb(81, 201, 225);
+}
+.txt p{
+    color: #fff;
+    font-size: 17px;
+}
+
+.lasttwobtns{
+    margin-top: 1rem;
+}
+.view-products{
+    padding: .7rem 2rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    background-color:  #ded9e5;
+}
+.view-products:hover{
+    padding: .7rem 2rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    background-color:  #b1a9bb;
+}
+
+.continue-shop{
+    padding: .7rem 2rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    background-color:  #f09731;
+    color: #fff;
+}
+
+.continue-shop:hover{
+    padding: .7rem 2rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    background-color:  #f1a247;
+    color: #fff;
+}
